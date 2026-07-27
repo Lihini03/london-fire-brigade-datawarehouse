@@ -1,4 +1,4 @@
-# 🚒 London Fire Brigade -Enterprise Data Warehouse & BI Platform
+#  London Fire Brigade -Enterprise Data Warehouse & BI Platform
 
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 [![SSIS](https://img.shields.io/badge/SSIS-ETL-blue?style=flat)](#)
