@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>LFB_SSAS</Database>
+    <Server>localhost\SQL2022</Server>
+    <ConnectionString>Data Source=localhost\SQL2022;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>6EX3QYHZ6lbR5jlDUiMrFf2sBfg=01/04/2026 12:27:5701/04/2026 12:27:57</TimeStamp>
+        <ID>
+          <String>DS_LFB_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pcz9umtpvUDz1Ahln/o3YbhOHbM=01/04/2026 14:10:4601/04/2026 12:59:38</TimeStamp>
+        <ID>
+          <String>DSV_LFB_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>J4eOMRBXSXz2UKggQZCC263Luwc=01/04/2026 14:58:5501/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Dim Incident Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vm2Ul9aCo8YUUzk4vJW+W4okeWc=02/04/2026 18:07:4301/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Dim Borough</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>70f3u2vlbKvCzK99G1MBw8XZBAY=01/04/2026 14:59:5001/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Dim Property</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wbPJG2lEXJ1v2wmPJY8y9hDb4gI=02/04/2026 18:04:4901/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oGAdjvLpc7OIaNYevE1chUdtRRE=01/04/2026 14:57:2101/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Dim Station</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>bQkdSL4vB5LOJTDf77+1f5UIczc=02/04/2026 07:47:3901/04/2026 14:34:28BBBoY3i+Jocr6PMMAF+TC7awxxA=01/04/2026 14:34:2801/04/2026 14:34:28</TimeStamp>
+        <ID>
+          <String>Cube_LFB_Incidents</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>NcnDDB9SweuTyiwbI4YnWCT5E0c=01/04/2026 12:10:5401/04/2026 12:10:53</TimeStamp>
+      <ID>
+        <String>LFB_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-04-02T12:54:49.21Z</LastDeployed>
+</DeploymentSnapshot>
