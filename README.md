@@ -1,4 +1,4 @@
-# 🚒 London Fire Brigade — Enterprise Data Warehouse & BI Platform
+# 🚒 London Fire Brigade -Enterprise Data Warehouse & BI Platform
 
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 [![SSIS](https://img.shields.io/badge/SSIS-ETL-blue?style=flat)](#)
@@ -52,15 +52,15 @@ The solution follows a standard **three-tier DW/BI architecture**, ensuring clea
 
 ```
 ┌───────────────────────┐      ┌────────────────────────┐      ┌─────────────────────┐      ┌───────────────────────┐
-│      SOURCE LAYER      │      │     STAGING LAYER       │      │   DATA WAREHOUSE     │      │  ANALYTICS & BI       │
-│                        │      │                          │      │                       │      │                        │
-│  LFB_SourceDB (SQL)    │─SSIS→│  LFB_Staging (SQL)      │─SSIS→│  LFB_DW (Star Schema) │─────▶│  SSAS Cube            │
-│  • dbo.Incident        │      │  • StgIncident           │      │  • FactIncident        │      │  • Excel PivotTables  │
-│                        │      │  • StgMobilisation       │      │  • DimDate             │      │                        │
-│  Flat File (CSV)       │      │  • StgBorough            │      │  • DimBorough          │      │  Power BI             │
-│  • Mobilisation.csv    │      │  • StgStation            │      │  • DimStation (SCD2)   │      │  • 4 interactive       │
-│                        │      │  • StgIncidentType       │      │  • DimIncidentType     │      │    reports             │
-│                        │      │  • StgProperty           │      │  • DimProperty         │      │                        │
+│      SOURCE LAYER     │      │     STAGING LAYER      │      │   DATA WAREHOUSE     │     │  ANALYTICS & BI       │
+│                       │      │                        │      │                      │     │                       │
+│  LFB_SourceDB (SQL)   │─SSIS→│  LFB_Staging (SQL)     │─SSIS→│  LFB_DW (Star Schema)│─────▶│  SSAS Cube          │
+│  • dbo.Incident       │      │  • StgIncident         │      │  • FactIncident      │     │  • Excel PivotTables  │
+│                       │      │  • StgMobilisation     │      │  • DimDate           │     │                       │
+│  Flat File (CSV)      │      │  • StgBorough          │      │  • DimBorough        │     │  Power BI             │
+│  • Mobilisation.csv   │      │  • StgStation          │      │  • DimStation (SCD2) │     │  • 4 interactive      │
+│                       │      │  • StgIncidentType     │      │  • DimIncidentType   │     │    reports            │
+│                       │      │  • StgProperty         │      │  • DimProperty       │     │                       │
 └───────────────────────┘      └────────────────────────┘      └─────────────────────┘      └───────────────────────┘
                                                                           ▲
                                                                           │
@@ -254,10 +254,10 @@ YoY Incident Change % =
 
 ## 👤 Author
 
-**B.L.L.N. Bowaththa (Lihini)**
+**B.L.L.N. Bowaththa **
 Data Science Undergraduate, SLIIT
 [LinkedIn](https://linkedin.com/in/lihini-b) · [GitHub](https://github.com/Lihini03)
 
 ---
 
-<p align="center"><i>Built as part of IT3021 — Data Warehousing & Business Intelligence, SLIIT</i></p>
+
