@@ -1,0 +1,236 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6fd13558-0f95-4b2c-8a45-fad48dccc396" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Borough</ID>
+  <Name>Dim Borough</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1874" scrolltop="-5842" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7916" y="14330" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimBorough" left="-43" top="191" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4128" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000020100000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimBorough" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1874</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5842</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-43</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>191</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="203">
+            <Shape Id="Borough Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Borough Key" />
+                <Attribute Id="Alternate Borough Code" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Borough Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Borough Name" />
+              </Attributes>
+              <Position x="278" y="20" />
+            </Shape>
+            <Shape Id="London Region" Expanded="false">
+              <Attributes>
+                <Attribute Id="London Region" />
+              </Attributes>
+              <Position x="537" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8491c1b-d573-4ef9-8539-fca58aa0c046">
+    <DataSourceViewID>DSV_LFB_DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="a7b979f0-caa8-4257-9056-f5a578676a64">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="197ab17b-2274-45da-8b36-f7de24a234d3">
+      <ID>Borough Key</ID>
+      <Name>Borough Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="64df87d6-3908-46e8-a487-fc293e9a2cd3">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="33e0722f-2b3b-4efd-880f-1978aa7c510b">
+            <TableID>dbo_DimBorough</TableID>
+            <ColumnID>BoroughKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c4b31076-ca78-417f-bc38-8bea6da1f663">
+          <AttributeID>Alternate Borough Code</AttributeID>
+          <Name>Alternate Borough Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f7b4043-3b00-4f76-9e37-a1100c561c55">
+          <AttributeID>Borough Name</AttributeID>
+          <Name>Borough Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2cbe2bd9-9e1f-4772-9ae8-ac7f4d5e8f42">
+      <ID>Alternate Borough Code</ID>
+      <Name>Alternate Borough Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7f1dd50-3ed2-4a59-8072-03cf16d1306f">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d160fd9a-16c8-4e40-a0e4-cb9f6e9b1656">
+            <TableID>dbo_DimBorough</TableID>
+            <ColumnID>AlternateBoroughCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80949030-de10-45e1-accb-7b7e25333ef7">
+      <ID>Borough Name</ID>
+      <Name>Borough Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d36471a1-f3f5-435f-82e1-1883826e1f74">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4d1b94a-45de-4fad-87ee-7467a99931cf">
+            <TableID>dbo_DimBorough</TableID>
+            <ColumnID>BoroughName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0b6c425d-2c58-434b-93fb-0b247ad172b9">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ad87253-31dd-4c60-9dc0-8615d4d2a6f2">
+            <TableID>dbo_DimBorough</TableID>
+            <ColumnID>LondonRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="1b3e9b03-0eb9-4bd7-b05d-c7fca92a099c">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6cc29086-fb3e-4a26-855b-4e6141c6fea8">
+          <TableID>dbo_DimBorough</TableID>
+          <ColumnID>BoroughName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="849a843a-7e90-4666-9523-3d1cebdc3bb3">
+          <AttributeID>London Region</AttributeID>
+          <Name>London Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fee06437-4e23-4d8b-b8e2-9525d81f4370">
+      <ID>London Region</ID>
+      <Name>London Region</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d676198b-58b2-436e-bc8b-68613c03f3f1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44c9f41a-4512-47d4-a2aa-c5218d4b0742">
+            <TableID>dbo_DimBorough</TableID>
+            <ColumnID>LondonRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="006e738a-1e5a-4706-a9d7-d03d57f47f11">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9558af68-c8de-4be2-90de-e183289066f8">
+          <TableID>dbo_DimBorough</TableID>
+          <ColumnID>LondonRegion</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d6620881-335a-4e2d-9621-96494f8f2452">
+      <ID>Hierarchy</ID>
+      <Name>Borough Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="c76617de-ecbd-467e-80c1-5caeded0e9a5">
+          <ID>London Region</ID>
+          <Name>London Region</Name>
+          <SourceAttributeID>London Region</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="039d9e5c-226c-4adb-a117-2b5d6ef9d3a1">
+          <ID>Borough Name</ID>
+          <Name>Borough Name</Name>
+          <SourceAttributeID>Borough Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

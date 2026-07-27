@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "LFB_SSAS", "LFB_SSAS.dwproj", "{BABB35FB-0700-99FB-C7F4-65C63FC6F965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABB35FB-0700-99FB-C7F4-65C63FC6F965}.Development|Default.ActiveCfg = Development
+		{BABB35FB-0700-99FB-C7F4-65C63FC6F965}.Development|Default.Build.0 = Development
+		{BABB35FB-0700-99FB-C7F4-65C63FC6F965}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78DD5275-25B8-4E1E-9C38-4DFFE09E39EE}
+	EndGlobalSection
+EndGlobal
